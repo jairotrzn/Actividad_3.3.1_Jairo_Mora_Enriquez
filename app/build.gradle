@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.actividad_331_jairo_mora_enriquez'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.actividad_331_jairo_mora_enriquez"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

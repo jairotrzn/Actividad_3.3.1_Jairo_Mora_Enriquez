@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/identificador"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:hint="IDENTIFICADOR
+">
+
+    </TextView>
+    <TextView
+        android:id="@+id/datonombre"
+        android:hint="NOMBRE"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/ediTextApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="APELLIDO"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        >
+
+    </TextView>
+
+</LinearLayout>
