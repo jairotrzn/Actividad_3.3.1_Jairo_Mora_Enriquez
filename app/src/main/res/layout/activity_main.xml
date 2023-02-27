@@ -52,6 +52,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="44dp"
         android:drawableTop="@android:drawable/ic_popup_sync"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btnEliminar"
         app:layout_constraintTop_toBottomOf="@+id/ediTextApellido" />
 
@@ -89,15 +91,13 @@
         android:id="@+id/listaContactos"
         android:layout_width="362dp"
         android:layout_height="313dp"
-        android:layout_marginBottom="4dp"
         android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEliminar"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEliminar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
